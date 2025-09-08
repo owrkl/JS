@@ -93,7 +93,8 @@ point.addEventListener('click', function(){
 });
 
 equ.addEventListener('click', function(){
-    switch (op.value){
+    if (n1.value.length > 0) {
+        switch (op.value){
         case '+':
             p1 = parseFloat(n1.value);
             p2 = parseFloat(n2.value);
@@ -121,6 +122,7 @@ equ.addEventListener('click', function(){
     op.value = null;
     n2.value = null;
     res = null;
+    }
 });
 
 clear.addEventListener('click', function(){
