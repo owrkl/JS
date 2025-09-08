@@ -1,0 +1,108 @@
+body {
+    background-color: darkblue;
+}
+
+#pageTitle {
+    color: forestgreen;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#calc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+#d1 {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#d2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#db1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#db2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#db3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#db4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    background-color: cyan;
+    border-radius: 3pt;
+    height: 50px;
+    width: 50px;
+}
+
+#2b {
+   display: flex; 
+   flex-direction: row;
+   gap: 5px;
+}
+
+#equlb {
+    background-color: cyan;
+    border-radius: 3pt;
+    height: 50px;
+    width: 105px;
+}
+
+#clr {
+    background-color: cyan;
+    border-radius: 3pt;
+    height: 50px;
+    width: 105px;
+}
+
+.tbox {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+#eq {
+    color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    overflow: hidden;
+}
